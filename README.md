@@ -1,6 +1,7 @@
 # Extract-RFA-file
 
 Extracts and decodes metadata from Revit `.rfa` files, including the `BasicFileInfo.bin` content.
+Thanks to: [PeterHirn - phi-ag/rvt-app](https://github.com/phi-ag/rvt-app?tab=readme-ov-file)
 
 Sample output:
 
