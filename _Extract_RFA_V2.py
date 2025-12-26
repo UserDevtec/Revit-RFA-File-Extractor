@@ -145,6 +145,6 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         rfa_path = Path(sys.argv[1])
     else:
-        rfa_path = Path("Project1.rvt")
+        rfa_path = Path("racbasicsamplefamily.rfa")
 
     inspect_rfa(rfa_path)
