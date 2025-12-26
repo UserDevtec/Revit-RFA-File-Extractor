@@ -175,7 +175,7 @@ def main():
             emit(f"  {cleaned}")
 
     output_dir = pathlib.Path(__file__).resolve().parent
-    output_path = output_dir / f"{path.stem}_Leesbaar.txt"
+    output_path = output_dir / f"{path.stem}_Readable.txt"
     output_path.write_text("\n".join(output_lines), encoding="utf-8")
     emit()
     emit(f"Saved: {output_path}")

@@ -158,7 +158,7 @@ def main():
     except Exception as exc:
         emit(f"Decompression failed: {exc}")
         output_dir = pathlib.Path(__file__).resolve().parent
-        output_path = output_dir / "Formats_Latest_V1_Leesbaar.txt"
+        output_path = output_dir / "Formats_Latest_V1_Readable.txt"
         output_path.write_text("\n".join(output_lines), encoding="utf-8")
         emit(f"Saved: {output_path}")
         return 1
@@ -192,7 +192,7 @@ def main():
         emit()
 
     output_dir = pathlib.Path(__file__).resolve().parent
-    output_path = output_dir / "Formats_Latest_V1_Leesbaar.txt"
+    output_path = output_dir / "Formats_Latest_V1_Readable.txt"
     output_path.write_text("\n".join(output_lines), encoding="utf-8")
     emit(f"Saved: {output_path}")
 
