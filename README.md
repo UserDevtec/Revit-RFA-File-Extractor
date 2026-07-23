@@ -447,7 +447,8 @@ Decompressed hexdump (first 256 bytes):
 
 ```
 PNG preview saved as: racbasicsamplefamily\RevitPreview4.0.png
-<img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/e3f7042a-d1cd-41d8-8f05-11f2b7b14b49" />
 
 Size: 1133 bytes
 ```
+<img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/e3f7042a-d1cd-41d8-8f05-11f2b7b14b49" />
+
